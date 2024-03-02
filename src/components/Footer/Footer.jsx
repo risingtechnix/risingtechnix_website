@@ -2,7 +2,7 @@ import React from "react"
 
 const Footer = () => {
 	return <div>Footer</div>
-	// Amar
+	// sofiyan pathan
 }
 
 export default Footer
