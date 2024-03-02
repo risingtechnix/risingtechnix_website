@@ -1,7 +1,13 @@
+import Footer from "./components/Footer/Footer"
+import Navbar from "./components/Header/Navbar"
+import {Outlet} from "react-router-dom"
+
 function App() {
 	return (
 		<>
-			<h1>RisingTechnix</h1>
+			<Navbar />
+			<Outlet />
+			<Footer />
 		</>
 	)
 }
