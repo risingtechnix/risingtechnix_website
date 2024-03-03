@@ -1,7 +1,15 @@
+import MainFooter from "./components/Footer/MainFooter"
+import Navbar from "./components/Header/Navbar"
+import {Outlet} from "react-router-dom"
+
+
 function App() {
 	return (
 		<>
-			<h1>RisingTechnix</h1>
+		{/* KunalDada  Shinde */}
+			<Navbar />
+			<Outlet />
+			<MainFooter />
 		</>
 	)
 }
