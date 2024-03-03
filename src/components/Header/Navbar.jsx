@@ -175,13 +175,12 @@ const Navbar = () => {
 					>
 						Careers
 					</NavLink>
-					{/* <div className="flex justify-center items-center gap-2 mt-8 py-2 bg-gradient-to-r from-purple-700 to-purple-500 hover:from-purple-500 hover:to-purple-700 rounded-full w-[130px]">
+					<div className="flex justify-center items-center gap-2 mt-8 py-2 bg-gradient-to-r from-purple-700 to-purple-500 hover:from-purple-500 hover:to-purple-700 rounded-full w-[130px]">
 						<Link to="/contact" className="">
 							Let's Talk
 						</Link>
 						<img src="src\assets\arrow-up-right.png" alt="arrow-image" />
-					</div> */}
-					<LetsTalk />
+					</div>
 				</div>
 			</div>
 		</nav>
