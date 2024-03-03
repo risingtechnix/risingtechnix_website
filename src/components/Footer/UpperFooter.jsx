@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 const UpperFooter = () => {
 	return (
+		// Adding comment
 	<div className="bg-[#5A48C3] text-white font-sora gap-x-[24px] w-full h-[388px] flex flex-col justify-center items-center text-center">
 		
 			<div className="flex flex-col justify-center items-center">
