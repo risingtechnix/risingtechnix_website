@@ -1,10 +1,10 @@
-import React from "react"
 import {Link, NavLink} from "react-router-dom"
+// import {useState, useEffect} from "react"
 
 const Navbar = () => {
 	return (
-		<header className="sticky z-50 top-0 h-[100px] bg-transparent font-sora">
-			<nav className=" bg-transparent px-2 h-[100px]">
+		<>
+			<nav className=" bg-transparent px-2 h-[100px] z-10">
 				{/* Wrapper */}
 				<div className="flex justify-between items-center py-[25px]">
 					{/* wrapper for  the logo and branding */}
@@ -41,7 +41,7 @@ const Navbar = () => {
 					</div>
 				</div>
 			</nav>
-		</header>
+		</>
 	)
 }
 
