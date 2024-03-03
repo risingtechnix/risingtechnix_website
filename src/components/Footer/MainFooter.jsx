@@ -6,6 +6,7 @@ import React from 'react'
 function MainFooter() {
   return (
     <div className="bottom-0">
+      {/* This is upper footer */}
       <UpperFooter />
       {/* Bottom footer */}
       <div className="w-full h-[456px] flex flex-col justify-center font-sora items-center">
