@@ -5,7 +5,7 @@ export default {
 		extend: {
 			colors: {},
 			fontFamily: {
-				sora: ["Sora", "sans-serif"],
+				sora: ["sora", "sans-serif"],
 			},
 		},
 	},

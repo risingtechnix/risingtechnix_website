@@ -1,6 +1,5 @@
-import Footer from "./components/Footer/Footer"
 import Header from "./components/Header/Header"
-import Navbar from "./components/Header/Navbar"
+import MainFooter from "./components/Footer/MainFooter"
 import {Outlet} from "react-router-dom"
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
 		<>
 			<Header />
 			<Outlet />
-			<Footer />
+			<MainFooter />
 		</>
 	)
 }
