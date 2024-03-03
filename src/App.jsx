@@ -1,6 +1,7 @@
-import Footer from "./components/Footer/Footer"
+import MainFooter from "./components/Footer/MainFooter"
 import Navbar from "./components/Header/Navbar"
 import {Outlet} from "react-router-dom"
+
 
 function App() {
 	return (
@@ -8,7 +9,7 @@ function App() {
 		{/* KunalDada  Shinde */}
 			<Navbar />
 			<Outlet />
-			<Footer />
+			<MainFooter />
 		</>
 	)
 }

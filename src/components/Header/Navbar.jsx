@@ -10,7 +10,7 @@ const Navbar = () => {
 					{/* wrapper for  the logo and branding */}
 					<div className="flex justify-between items-center gap-[16px]">
 						<Link to="/">
-							<img src="src\assets\Logo.png" alt="logo" />
+							<img src="src\assets\Main_logo.png" className="w-[48px] h-[48px]" alt="logo" />
 						</Link>
 						<Link to="/">
 							<h1 className=" text-[28px] font-bold">RisingTechnix</h1>
