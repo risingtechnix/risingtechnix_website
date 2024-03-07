@@ -2,7 +2,7 @@ import React from "react"
 import {Link} from "react-router-dom"
 const LetsTalk = (classes) => {
 	return (
-		<div className="hidden px-4 py-2 bg-gradient-to-r from-purple-700 to-purple-500 hover:from-purple-500 hover:to-purple-700 rounded-full lg:w-[140px] lg:h-[56px] lg:flex lg:justify-between lg:items-center lg:gap-2 font-sora">
+		<div className="hidden px-4 py-2 bg-gradient-to-r from-purple-700 to-purple-500 hover:from-purple-500 hover:to-purple-700 rounded-full lg:w-[140px] lg:h-[56px] lg:flex lg:justify-between lg:items-center lg:gap-2 font-sora transition-all duration-300 ease-in-out">
 			<Link to="/contact" className="text-white">
 				Let's Talk
 			</Link>
